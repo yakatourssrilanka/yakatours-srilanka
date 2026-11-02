@@ -1,0 +1,72 @@
+ROLE
+You are a senior web developer, SEO strategist and travel-marketing copywriter. Build a complete, high-ranking, high-converting website for YAKA TOURS SRILANKA, delivered as a downloadable ZIP.
+
+BUSINESS
+- Name: YAKA TOURS SRILANKA
+- Business: private and customised tours in Sri Lanka for foreign visitors, especially Europeans
+- Domain: https://yakatourssrilanka.com
+- WhatsApp: +94702123838 (https://wa.me/94702123838)
+- Email: yakatourssrilanka@gmail.com
+- https://www.instagram.com/yaka_tours_srilanka/.
+- Logo: attached image. Use it crisp in the header, footer, favicon and social-share image (/images/share-preview.jpg). Pull the site colours from the logo.
+
+MAIN GOAL
+Generate WhatsApp messages and emails. Every page needs clear calls to action:
+- Sticky floating WhatsApp button (mobile + desktop) with a pre-filled message
+- "Plan My Trip" enquiry form that sends to my Gmail (mailto or a free form service such as Formspree/Web3Forms) and also offers a WhatsApp send option
+- Click-to-chat and click-to-email links in the header, hero, footer and after every tour
+
+STEP 1 – RESEARCH (show results BEFORE building, then continue)
+1. Buyer personas for European travellers (couples, families, solo, honeymooners, adventure/culture/wildlife/beach seekers): pain points (scams, trust, pricing, safety, driver quality, planning stress, weather/season) and what they type into Google.
+2. Competitor gap analysis: study 3–5 top-ranking Sri Lanka tour operator sites. List the pages, tools and content they have that I'm missing.
+3. Long-tail keyword list mapped to specific pages (e.g. "private driver tour Sri Lanka 7 days", "Sri Lanka honeymoon itinerary 10 days", "best time to visit Sri Lanka for Europeans", "Sigiriya and Ella tour package").
+
+STEP 2 – SITE STRUCTURE (clean URLs, clear nav, breadcrumbs on every inner page)
+Home; About (story, team, licences, why choose us); Tour Packages (listing + individual pages); Destinations (Sigiriya, Kandy, Ella, Yala, Galle, Colombo, Nuwara Eliya, etc.); Custom Trip Planner; Travel Guide/Blog (best time to visit, visa/ETA, costs, safety, packing, itineraries); Reviews; FAQ; Contact; Privacy Policy; Terms; 404 page.
+
+STEP 3 – CONTENT
+- Persuasive, natural English for European travellers; prices in EUR as "from €___" placeholders
+- Unique title tag, meta description, H1–H3 structure and keyword-focused copy on every page
+- Strong E-E-A-T: real business details, "Meet the team" section, review slots, trust badges, transparent policies, helpful educational articles
+- Mark every placeholder clearly (e.g. [REPLACE: ...]) so it is easy to find and replace
+
+HOME PAGE SEO (use as the base)
+<title>Yaka Tours Sri Lanka | Luxury & Custom Private Island Tours</title>
+<meta name="description" content="Discover the magic of Sri Lanka with Yaka Tours. We offer premium, colorful, and tailored private tours across Sigiriya, Kandy, Galle, and wildlife safaris. Plan your dream luxury island vacation with our expert local guides today.">
+<meta name="keywords" content="Sri Lanka tours, Yaka Tours, luxury private driver Sri Lanka, customized Sri Lanka itinerary, Sigiriya tour guide, Galle travel agency, Sri Lanka vacation packages">
+Open Graph: og:title "Yaka Tours Sri Lanka | Luxury Private Island Tours"; og:description "Plan your dream luxury island vacation with our expert local guides. Tailored itineraries across Sigiriya, Kandy, Galle, and wildlife safaris."; og:type website; og:url https://yakatourssrilanka.com; og:image https://yakatourssrilanka.com/images/share-preview.jpg (close the tag properly). Add matching Twitter Card tags. Write unique equivalents for every other page.
+
+STEP 4 – DESIGN
+- Vibe: vibrant, colourful, high-end luxury, modern, sleek, flawless. Warm and trustworthy, inspired by Sri Lanka.
+- Palette: primary Deep Emerald #0A4B3E (or Sapphire #1B365D); highlights Sunset Gold #D4AF37 / #E5A93C and Vibrant Coral #FF6F61 for buttons, CTAs and active states; backgrounds Off-White #FAFAFA and glassmorphism dark sections #0D1117; plus tropical green, teal and sand where they match the logo. Accessible contrast (WCAG AA).
+- Fonts (Google Fonts, preconnected, display=swap): Playfair Display (headings), Plus Jakarta Sans (body).
+
+STEP 5 – CORE FEATURES
+- Header: glassmorphism blur on scroll; logo; nav (Home, Destinations, Luxury Packages, Experience, Contact); prominent "Book Now" button; mobile menu.
+- Hero: full-screen immersive background (optimised image, optional video), bold headline (e.g. "Unveil Extraordinary Luxury Travel"), and a working search/filter bar (destination dropdown, travel dates, guests, search button) that opens the enquiry flow with the chosen details.
+- Featured destinations/tours: carousel or grid with hover-zoom images, price badges, star ratings and "Explore Package" buttons.
+- Luxury experiences: interactive cards (private chauffeur tours, ocean yachts, exclusive resorts, helicopter safaris, etc.).
+- Booking/enquiry modal: opens from every "Book Now" button; dates, destination picker, guests, contact details; sends by email and WhatsApp with a pre-filled message.
+- Testimonials: sleek slider with star ratings and photo slots.
+- Footer: newsletter signup, quick links, social icons with hover micro-interactions, contact links, copyright.
+- Animations: smooth scroll, fade-in-up reveal on scroll (IntersectionObserver), glow/shadow on button hover, scale-up on image hover. Respect prefers-reduced-motion.
+
+STEP 6 – TECHNICAL SEO & PERFORMANCE
+- Pure HTML5, CSS3 (Flexbox, Grid, custom variables) and vanilla ES6+ JavaScript. No frameworks, no heavy libraries, no build tools.
+- Mobile-first; target under 3 s load; good LCP, CLS and INP.
+- Compressed WebP images with width/height set, lazy loading (not on the hero) and descriptive alt text; preload the hero image.
+- Semantic HTML, canonical tags, internal linking, 404 page, sitemap.xml, robots.txt.
+- Schema (JSON-LD): TravelAgency, LocalBusiness, TouristTrip, FAQPage, Review/AggregateRating (clearly marked as placeholder until real reviews exist), BreadcrumbList.
+- GA4 and Google Search Console verification placeholders with setup instructions.
+
+STEP 7 – DELIVERY
+- Plain, modular, well-commented code, fully responsive on mobile, tablet and desktop.
+- One config file (e.g. /js/config.js) controlling business details, WhatsApp number and message, email, prices, tours, colours and text.
+- Folder structure: /index.html, /css, /js, /images, /tours, /destinations, /blog, plus all other pages.
+- Deliver everything as a downloadable ZIP, plus a simple README covering: editing content, replacing images, adding tours, connecting the form, GA4/Search Console, and publishing (Netlify, GitHub Pages or normal hosting).
+
+OUTPUT ORDER
+1. Research results (Step 1), then wait for my "go" before building.
+2. Site map and file structure.
+3. Full code, then the ZIP and README.
+Be honest about anything you cannot verify (live competitor data, real licences, real reviews). Never invent fake testimonials or certifications as fact; use clearly marked placeholders.
